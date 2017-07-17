@@ -1,34 +1,33 @@
-
 body {
-    margin:0;
-    padding:0;
-    line-height:100%;
-    font-size:80px;
-    font-family:'Playfair Display', sans-serif;
-    color:{color:Text};
-    text-decoration:none;
-    text-transform:none;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 80px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #444;
+    text-decoration: none;
+    text-transform: none;
     background-image: url('../img/scott-webb-199470.jpg');
-    background-attachment:fixed;
-    background-size:cover;
+    background-attachment: fixed;
+    background-size: cover;
 } 
 
 a {
-    text-decoration:none;
-    text-transform:none;
+    text-decoration: none;
+    text-transform: none;
 }
 
 a:hover {
-    text-decoration:none;
-    text-transform:none;
+    text-decoration: none;
+    text-transform: none;
 }
 
 
 .heading {
-    position:absolute;
+    position: absolute;
     left: calc(50% - 252.5px);
     top: calc(50% - 40px);
-    width:505px;
-    height:80px;
+    width: 505px;
+    height: 80px;
 }
    
