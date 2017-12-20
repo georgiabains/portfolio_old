@@ -457,6 +457,7 @@ body bold {
     font-size: 12px;
     text-align: center;
     height: 150px;
+    padding-bottom: 70px;
   }
   #content footer .links {
     float: none;
@@ -471,13 +472,13 @@ body bold {
 }
 @media only screen and (max-width: 600px) {
   .arrow {
-    width: 24%;
+    width: 40%;
     top: calc(50% - 35px);
     font-size: 70px;
     line-height: 70px;
   }
   .header {
-    width: 76%;
+    width: 60%;
   }
   #content nav {
     padding: 50px;
@@ -515,7 +516,7 @@ body bold {
     font-size: 12px;
   }
   #content .process {
-    padding: 0;
+    padding: 0 0 50px 0;
     width: calc(100% - 100px);
   }
   #content .process ul.icon {
@@ -538,7 +539,23 @@ body bold {
   }
   #content .process ul.icon li span {
     width: calc(100% - 100px);
-    margin-top: -35px;
+    margin-top: -40px;
     font-size: 16px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .arrow {
+    width: 27%;
+  }
+  .header {
+    width: 73%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .arrow {
+    width: 26%;
+  }
+  .header {
+    width: 74%;
   }
 }

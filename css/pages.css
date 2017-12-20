@@ -1,3 +1,4 @@
+/*coded and created by Georgia Bains*/
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -385,7 +386,7 @@ body bold {
   }
   #content .projects ul li p {
     font-size: 15px;
-    min-height: 40px;
+    min-height: 50px;
   }
   #content .projects ul li p a {
     font-size: 12px;
