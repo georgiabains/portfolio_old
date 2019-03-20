@@ -159,7 +159,7 @@ body bold {
 }
 #content .projects ul li img {
   width: 150px;
-  height: auto;
+  height: auto !important;
 }
 #content .projects ul li h3 {
   font-weight: 400;
@@ -288,7 +288,7 @@ body bold {
   }
   #content .projects ul li img {
     width: 130px;
-    height: auto;
+    height: auto !important;
   }
   #content .projects ul li h3 {
     height: 30px;
@@ -345,7 +345,7 @@ body bold {
   }
   #content .projects ul li img {
     width: 130px;
-    height: auto;
+    height: auto !important;
   }
   #content .projects ul li h3 {
     height: 60px;
@@ -392,7 +392,7 @@ body bold {
   }
   #content .projects ul li img {
     width: 120px;
-    height: auto;
+    height: auto !important;
   }
   #content .projects ul li h3 {
     font-size: 18px;
