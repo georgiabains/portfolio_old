@@ -435,10 +435,6 @@ body bold {
     width: 140px;
     overflow: hidden;
   }
-  #content .projects ul li img {
-	width: 100%;
-    height: auto;
-  }
   #content .process ul.icon li {
     height: 120px;
   }
@@ -505,10 +501,6 @@ body bold {
   #content .projects ul li {
     width: 100%;
     margin: 0 0 40px 0;
-  }
-  #content .projects ul li img {
-    width: 100%;
-	height: auto;
   }
   #content .projects ul li h3 {
     font-size: 18px;
