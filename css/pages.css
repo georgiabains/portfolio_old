@@ -389,6 +389,7 @@ body bold {
   }
   #content .projects .project-icon {
 	height: 120px;
+	width: auto;
   }
   #content .projects ul li img {
     width: 120px;
