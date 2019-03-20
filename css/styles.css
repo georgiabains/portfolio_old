@@ -42,7 +42,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   line-height: 155%;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   text-transform: none;
   color: #fefefe;
@@ -108,7 +108,7 @@ body bold {
 }
 .header h2 {
   width: 760px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
   font-size: 26px;
   line-height: 40px;
@@ -432,9 +432,12 @@ body bold {
   #content .projects ul li {
     width: calc(100% / 2);
     margin: 0px -2px 40px -2px;
+    width: 140px;
+    overflow: hidden;
   }
   #content .projects ul li img {
-    width: 140px;
+	width: 100%;
+    height: auto;
   }
   #content .process ul.icon li {
     height: 120px;
@@ -504,7 +507,8 @@ body bold {
     margin: 0 0 40px 0;
   }
   #content .projects ul li img {
-    width: 120px;
+    width: 100%;
+	height: auto;
   }
   #content .projects ul li h3 {
     font-size: 18px;

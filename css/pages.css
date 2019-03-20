@@ -43,7 +43,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   line-height: 155%;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   text-transform: none;
   color: #222;
@@ -76,7 +76,7 @@ body bold {
   position: absolute;
 }
 #content a {
-  color: #ccc;
+  color: darkgray;
 }
 #content nav {
   width: calc(100% - 200px);
@@ -154,9 +154,12 @@ body bold {
   vertical-align: top;
   margin: -2px;
 }
+#content .projects .project-icon {
+	height: 150px;
+}
 #content .projects ul li img {
   width: 150px;
-  height: 150px;
+  height: auto;
 }
 #content .projects ul li h3 {
   font-weight: 400;
@@ -169,10 +172,11 @@ body bold {
 }
 #content .projects ul li p a {
   text-transform: uppercase;
-  border-bottom: 1px solid #fefefe;
-  color: #999;
+  border-bottom: 1px solid transparent;
+  color: #222;
   font-size: 14px;
   letter-spacing: 2px;
+  font-weight: 400;
 }
 #content .projects ul li p a:hover {
   border-bottom: 1px solid #ccc;
@@ -279,9 +283,12 @@ body bold {
     width: calc(100% / 2 - 40px);
     margin: 0px -2px 40px -2px;
   }
+  #content .projects .project-icon {
+	height: 130px;
+  }
   #content .projects ul li img {
     width: 130px;
-    height: 130px;
+    height: auto;
   }
   #content .projects ul li h3 {
     height: 30px;
@@ -333,9 +340,12 @@ body bold {
     width: calc(100% / 2 - 40px);
     margin: 0px -2px 40px -2px;
   }
+  #content .projects .project-icon {
+	height: 130px;
+  }
   #content .projects ul li img {
     width: 130px;
-    height: 130px;
+    height: auto;
   }
   #content .projects ul li h3 {
     height: 60px;
@@ -377,8 +387,12 @@ body bold {
     width: calc(100% - 40px);
     margin: 0 0 40px 0;
   }
+  #content .projects .project-icon {
+	height: 120px;
+  }
   #content .projects ul li img {
     width: 120px;
+    height: auto;
   }
   #content .projects ul li h3 {
     font-size: 18px;

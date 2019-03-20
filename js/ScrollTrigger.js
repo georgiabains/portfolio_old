@@ -42,7 +42,7 @@
 			this.once = false;
 
 			var xOffset = 0;
-			var yOffset = -40;
+			var yOffset = 0;
 
 			this.left = function(_this){
 				return function(){
